@@ -1,5 +1,5 @@
 === AccessPress Social Icons ===
-Contributors: access-keys
+Contributors: Access Keys
 Tags: social icon, social icons, social media, social icon widget, social icons widget, social media icons, social media plugin, social networking, social profiles, wordpress social icons, wp social icons
 Donate link: http://accesspressthemes.com/donation/
 Requires at least: 3.8
@@ -8,7 +8,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A plugin that provides the ability to add unlimited number of social icons sets anywhere in site with various backend options.
+A plugin that provides the ability to add unlimited number of social icons sets anywhere in your site with various backend options.
 
 == Description ==
 Link-up your social profiles right from your website, in an easy and fun way! 
@@ -30,39 +30,39 @@ For more features like SVG icon sets, font awesome icon sets, amazing customizat
 * Beautifully designed 12 icon sets 
 * Select from pre available icon sets or upload your own 
 * Strong customization options
-    1. Define size, set height, width of the icons
-    1. Set margin / spacing between icons
-    1. Link up your social media profiles, set link targets
-    1. Enable and disable the tooltips
-    1. Choose display type (vertical or horizontal), define no. of rows/columns 
+    - Define size, set height, width of the icons
+    - Set margin / spacing between icons
+    - Link up your social media profiles, set link targets
+    - Enable and disable the tooltips
+    - Choose display type (vertical or horizontal), define no. of rows/columns 
 * Create multiple-instance of the icon sets and use them in multiple places 
 * Easy integration
-    1. Get short code for each instance you design
-    1. Use the short code anywhere you like: header, footer, in a widget, in the content area
+    - Get short code for each instance you design
+    - Use the short code anywhere you like: header, footer, in a widget, in the content area
 * Get some styles! 
-    1. Define styles like shadow, borders for icons 
-    1. Define tooltips and style it with your own color, BG color. 
+    - Define styles like shadow, borders for icons 
+    - Define tooltips and style it with your own color, BG color. 
 * Tool tips
-    1. Add some feel on your icons  - add and customize the tooltip 
-    1. Enable or disable tooltips
+    - Add some feel on your icons  - add and customize the tooltip 
+    - Enable or disable tooltips
 * Make it interactive, define hover animation on icons. 
 * Make your own layout
-    1. Vertical and horizontal display option
-    1. Select rows and columns
+    - Vertical and horizontal display option
+    - Select rows and columns
 * Real time live preview - check how it looks on your website before using it. 
 * Order the icons - they way you like by using easy drag and drop feature. 
 * Fully Responsive - compatible with mobile devices
 * User friendly and very interactive user interface
-    1. Anyone can use it, its as easy as drag and drop. 
+    - Anyone can use it, its as easy as drag and drop. 
 * SEO friendly
-    1. Use your own image alt/title tags for hover-over text
-    1. Google will love it!
+    - Use your own image alt/title tags for hover-over text
+    - Google will love it!
 * Upgrades available 
-    1. For more features like SVG icon sets, Font Awesome icon sets, Amazing sidebar options - upgrade to Pro. 
+    - For more features like SVG icon sets, Font Awesome icon sets, Amazing sidebar options - upgrade to Pro. 
 * Support 
-    1. Dedicated email, forum support 
+    - Dedicated email, forum support 
 * Free updates
-    1. Get free updates for lifetime. 
+    - Get free updates for lifetime. 
 
 
 
@@ -98,7 +98,7 @@ This plugin provides the ability to add your social profile icons in frontend wi
 Yes you can build your own sets or choose from pre available sets as per your requirement.
 
 = Where can I find the documentation for the plugin? =
-Once you install the plugin , you can check some general documentation about how to use the plugin in the "How to use" panel of the plugin's settings page.Complete documentation can be found  [here](https://accesspressthemes.com/documentation/documentationplugin-instruction-accesspress-social-icons/).
+Once you install the plugin , you can check some general documentation about how to use the plugin in the "How to use" page of the plugin.Complete documentation can be found  [here](https://accesspressthemes.com/documentation/documentationplugin-instruction-accesspress-social-icons/).
 
 == Screenshots ==
 1. Backend Lcon Sets Listing
