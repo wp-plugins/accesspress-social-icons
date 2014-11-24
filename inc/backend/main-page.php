@@ -23,7 +23,7 @@
             <div class="aps-panel">
                 <?php include('panel-head.php');?>
             <div class="aps-panel-body">
-                <h2>AccessPress Social <a href="<?php echo admin_url() . 'admin.php?page=aps-social-add' ?>" class="add-new-h2">Add New</a></h2>
+                <h2>AccessPress Social Icons <a href="<?php echo admin_url() . 'admin.php?page=aps-social-add' ?>" class="add-new-h2">Add New</a></h2>
                 <table class="wp-list-table widefat fixed posts">
                     <thead>
                         <tr>

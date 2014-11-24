@@ -218,6 +218,8 @@ $icon_extra = unserialize($icon_set->icon_extra);
                                     <a href="javascript:void(0);" class="aps-icon-theme-expand button button-secondary button-small"><?php _e('Expand All', 'aps-social'); ?></a>
                                 </div>
                                 <div class="aps-icon-list-wrapper">
+                                <p style="display: none;"><?php _e('Empty List', 'aps-social'); ?></p>
+                                    <div class="aps-icon-note"><?php _e('Each Icon will only show up in the frontend if icon link is not empty', 'aps-social'); ?></div>
                                     <ul class="aps-icon-list">
                                         <?php
                                         $icon_details = unserialize($icon_set->icon_details);
