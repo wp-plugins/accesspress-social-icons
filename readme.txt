@@ -101,10 +101,10 @@ Yes you can build your own sets or choose from pre available sets as per your re
 Once you install the plugin , you can check some general documentation about how to use the plugin in the "How to use" page of the plugin.Complete documentation can be found  [here](https://accesspressthemes.com/documentation/documentationplugin-instruction-accesspress-social-icons/).
 
 == Screenshots ==
-1. Backend Lcon Sets Listing
-2. Backend Icons Sets Add Section(Using Pre Available Themes)
-3. Backend Icons Sets Add Section(Using Individual Icons Adder)
-4. Frontend Icons Sets Display 
+1. Backend Icons Sets Add Section(Using Pre Available Themes)
+2. Backend Icons Sets Add Section(Using Individual Icons Adder)
+3. Frontend Icons Sets Display
+4. Backend Lcon Sets Listing 
 
 == Changelog ==
 = 1.0.1 =
