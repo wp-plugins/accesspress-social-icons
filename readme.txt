@@ -8,7 +8,7 @@ Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A plugin that provides the ability to add unlimited number of social icons sets anywhere in your site with various backend options.
+Add social media icons on your site | select from pre-designed sets or upload your own | create multiple icon sets | Use it anywhere on your website using shortcode. 
 
 == Description ==
 Link-up your social profiles right from your website, in an easy and fun way! 
