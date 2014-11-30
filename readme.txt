@@ -16,17 +16,22 @@ Add social media icons on your site | select from pre-designed sets or upload yo
 <strong>AccessPress Social Icons</strong> - allows you to create various social icons and link your social profiles from your website. Its fun because - you can create, customize and build the beautiful icons for your social media profiles on your own. 
 
 
-<code>------------------------------------------------------------</code>
+<code>
+______________________________________________________________________________________________________________________
 
-<strong>You can select icons from our 12 different beautifully designed sets, or upload our own icons set, customize them, define sizes, add several effects, add tooltip, set margins etc. Also you can define to appear the icons horizontally/vertically and no. of rows/columns!</strong>
+You can select icons from our 12 different beautifully designed sets, or upload our own icons set, customize them, define sizes, add several effects, add tooltip, set margins etc. Also you can define to appear the icons horizontally/vertically and no. of rows/columns!
 
-<code>------------------------------------------------------------</code>
+______________________________________________________________________________________________________________________
+
+</code>
 
 Once the icon set is defined/customized - you can place it anywhere you want using short codes. Put it in the header, footer, in a widget, along with the page content - almost anywhere. 
 
 You can have more than one icon sets created and used on the site. A large icon sets on the header and a tiny one on the footer - for example. 
 
-<strong><em>For more features like SVG icon sets, font awesome icon sets, amazing customization options, feature rich sidebar options - upgrade to PRO version. Display your Social icons in header or footer area and display it horizontally or vertically. Customize your social icons easily with <strong>AccessPress Social Icons</strong>.You can use pre available icons themes or upload your own social icon and set your social URL.</em></strong>
+<strong><em>For more features like SVG icon sets, font awesome icon sets, amazing customization options, feature rich sidebar options - upgrade to PRO version.</em></strong>
+
+
 
 
 
