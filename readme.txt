@@ -15,15 +15,7 @@ Add social media icons on your site | select from pre-designed sets or upload yo
 
 <strong>AccessPress Social Icons</strong> - allows you to create various social icons and link your social profiles from your website. Its fun because - you can create, customize and build the beautiful icons for your social media profiles on your own. 
 
-
-<code>
-______________________________________________________________________________________________________________________
-
-You can select icons from our 12 different beautifully designed sets, or upload our own icons set, customize them, define sizes, add several effects, add tooltip, set margins etc. Also you can define to appear the icons horizontally/vertically and no. of rows/columns!
-
-______________________________________________________________________________________________________________________
-
-</code>
+<strong>You can select icons from our 12 different beautifully designed sets, or upload our own icons set, customize them, define sizes, add several effects, add tooltip, set margins etc. Also you can define to appear the icons horizontally/vertically and no. of rows/columns!</strong>
 
 Once the icon set is defined/customized - you can place it anywhere you want using short codes. Put it in the header, footer, in a widget, along with the page content - almost anywhere. 
 
