@@ -4,24 +4,29 @@ Tags: social icon, social icons, social media, social icon widget, social icons 
 Donate link: http://accesspressthemes.com/donation/
 Requires at least: 3.8
 Tested up to: 4.0
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add social media icons on your site | select from pre-designed sets or upload your own | create multiple icon sets | Use it anywhere using shortcode.
+Add social media icons on your site | select from pre-designed sets or upload your own | create multiple icon sets | Use it anywhere using shortcode. 
 
 == Description ==
-Link-up your social profiles right from your website, in an easy and fun way! 
+### Link-up your social profiles right from your website, in an easy and fun way! ### 
 
 <strong>AccessPress Social Icons</strong> - allows you to create various social icons and link your social profiles from your website. Its fun because - you can create, customize and build the beautiful icons for your social media profiles on your own. 
 
-You can select icons from our 12 different beautifully designed sets, or upload our own icons set, customize them, define sizes, add several effects, add tooltip, set margins etc. Also you can define to appear the icons horizontally/vertically and no. of rows/columns! 
+
+<code>------------------------------------------------------------</code>
+
+<strong>You can select icons from our 12 different beautifully designed sets, or upload our own icons set, customize them, define sizes, add several effects, add tooltip, set margins etc. Also you can define to appear the icons horizontally/vertically and no. of rows/columns!</strong>
+
+<code>------------------------------------------------------------</code>
 
 Once the icon set is defined/customized - you can place it anywhere you want using short codes. Put it in the header, footer, in a widget, along with the page content - almost anywhere. 
 
 You can have more than one icon sets created and used on the site. A large icon sets on the header and a tiny one on the footer - for example. 
 
-For more features like SVG icon sets, font awesome icon sets, amazing customization options, feature rich sidebar options - upgrade to PRO version. Display your Social icons in header or footer area and display it horizontally or vertically. Customize your social icons easily with <strong>AccessPress Social Icons</strong>.You can use pre available icons themes or upload your own social icon and set your social URL.
+<strong><em>For more features like SVG icon sets, font awesome icon sets, amazing customization options, feature rich sidebar options - upgrade to PRO version. Display your Social icons in header or footer area and display it horizontally or vertically. Customize your social icons easily with <strong>AccessPress Social Icons</strong>.You can use pre available icons themes or upload your own social icon and set your social URL.</em></strong>
 
 
 
@@ -104,9 +109,12 @@ Once you install the plugin , you can check some general documentation about how
 1. Backend Icons Sets Add Section(Using Pre Available Themes)
 2. Backend Icons Sets Add Section(Using Individual Icons Adder)
 3. Frontend Icons Sets Display
-4. Backend Icons Sets Listing 
+4. Backend Lcon Sets Listing 
 
 == Changelog ==
+= 1.0.2 =
+* Fixed small bug regarding plugin text domain for better translation
+
 = 1.0.1 =
 * Replaced previous icons with same sized icons and more quality icons
 * Fixed some typos 
