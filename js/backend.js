@@ -397,19 +397,25 @@
                         {
                             if(url_only=='yes')
                             {
-                                var image_url_array = $.parseJSON(res);
+                                var image_array = $.parseJSON(res);
+                                 var image_name;
+                                    for(image_name in image_array)
+                                    {
+                                        $('img[data-image-name="'+image_name+'"]').attr('src',image_array[image_name]);
+                                        $('input[data-image-name="'+image_name+'"]').attr('value',image_array[image_name]);
+                                    }
                                 //console.log(image_url_array);
-                                var array_index = 0;
-                                $('.aps-icon-preview img').each(function(){
-                                    //alert(image_url_array[array_index])
-                                    $(this).attr('src',image_url_array[array_index]);
-                                    array_index++;
-                                });
-                                var array_index = 0;
-                                $('.set_image_reference').each(function(){
-                                  $(this).val(image_url_array[array_index]);
-                                  array_index++;  
-                                });
+                                //var array_index = 0;
+//                                $('.aps-icon-preview img').each(function(){
+//                                    //alert(image_url_array[array_index])
+//                                    $(this).attr('src',image_url_array[array_index]);
+//                                    array_index++;
+//                                });
+//                                var array_index = 0;
+//                                $('.set_image_reference').each(function(){
+//                                  $(this).val(image_url_array[array_index]);
+//                                  array_index++;  
+//                                });
                             }
                             else
                             {

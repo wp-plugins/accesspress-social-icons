@@ -4,7 +4,7 @@ defined('ABSPATH') or die("No script kiddies please!");
  * Plugin Name:AccessPress Social Icons
  * Plugin URI: https://accesspressthemes.com/wordpress-plugins/accesspress-social-icons/
  * Description: A plugin to add social icons in your site wherever you want dynamically with handful of configurable settings.
- * Version:1.0.2
+ * Version:1.0.3
  * Author:AccessPress Themes
  * Author URI:http://accesspressthemes.com/
  * Text Domain: aps-social
@@ -28,6 +28,10 @@ if (!defined('APS_ICONS_DIR')) {
 }
 if (!defined('APS_LANG_DIR')) {
     define('APS_LANG_DIR', basename( dirname( __FILE__ ) ) . '/languages');
+}
+if(!defined('APS_VERSION'))
+{
+    define('APS_VERSION','1.0.3');
 }
 /**
  * Register of widgets
@@ -105,8 +109,8 @@ if (!class_exists('APS_Class')) {
                 /**
                  * Backend CSS
                  * */
-                wp_enqueue_style('aps-admin-css', APS_CSS_DIR . '/backend.css'); //registering plugin admin css
-                wp_enqueue_style('aps-animate-css', APS_CSS_DIR . '/animate.css'); //animate.css library
+                wp_enqueue_style('aps-admin-css', APS_CSS_DIR . '/backend.css',false,APS_VERSION); //registering plugin admin css
+                wp_enqueue_style('aps-animate-css', APS_CSS_DIR . '/animate.css',false,APS_VERSION); //animate.css library
                 wp_enqueue_style('thickbox'); //for including wp thickbox css
                 wp_enqueue_style('wp-color-picker'); //for including color picker css
                 
@@ -117,7 +121,7 @@ if (!class_exists('APS_Class')) {
                 wp_enqueue_script('jquery-ui-sortable');
                 wp_enqueue_script('media-upload'); //for uploading image using wp native uploader
                 wp_enqueue_script('thickbox'); //for uploading image using wp native uploader + thickbox 
-                wp_enqueue_script('aps-admin-js', APS_JS_DIR . '/backend.js', array('jquery', 'jquery-ui-sortable', 'wp-color-picker'));//registering plugin's admin js
+                wp_enqueue_script('aps-admin-js', APS_JS_DIR . '/backend.js', array('jquery', 'jquery-ui-sortable', 'wp-color-picker'),APS_VERSION);//registering plugin's admin js
                 wp_localize_script('aps-admin-js', 'aps_script_variable', $aps_script_variable); //localization of php variable in aps-admin-js
             }
         }
@@ -127,9 +131,13 @@ if (!class_exists('APS_Class')) {
             /**
              * Frontend Style
              * */
-            wp_enqueue_style('aps-animate-css', APS_CSS_DIR . '/animate.css');//registering animate.css
-            wp_enqueue_style('aps-frontend-css', APS_CSS_DIR . '/frontend.css'); //registering frontend css
-            wp_enqueue_script('aps-frontend-js', APS_JS_DIR . '/frontend.js', array('jquery'));//registering frontend js 
+            wp_enqueue_style('aps-animate-css', APS_CSS_DIR . '/animate.css',false,APS_VERSION);//registering animate.css
+            wp_enqueue_style('aps-frontend-css', APS_CSS_DIR . '/frontend.css',false,APS_VERSION); //registering frontend css
+            
+            /**
+             * Frontend JS
+             * */
+            wp_enqueue_script('aps-frontend-js', APS_JS_DIR . '/frontend.js', array('jquery'),APS_VERSION);//registering frontend js 
         }
 
         //action to save the set in db
@@ -273,7 +281,7 @@ if (!class_exists('APS_Class')) {
                         $filename = ucfirst($filename_array[0]);
                         if($_POST['url_only']=='yes')
                         {
-                         $image_url_array[] = APS_ICONS_DIR . '/' . $sub_folder . '/' . $folder . '/' . $file; 
+                         $image_url_array[$filename] = APS_ICONS_DIR . '/' . $sub_folder . '/' . $folder . '/' . $file; 
                         }
                         else
                         {

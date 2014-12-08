@@ -25,7 +25,7 @@
                             <div class="halfseperator"></div>
                             <p><strong>If you'd like to buy premium version of this plugin please check here:</strong>
                                 <br />
-                                <a href="http://accesspressthemes.com/wordpress-plugins/accesspress-anonymous-post-premium/" target="_blank">http://accesspressthemes.com/wordpress-plugins/accesspress-anonymous-post-premium/ </a>
+                                <a href="https://accesspressthemes.com/wordpress-plugins/accesspress-social-icons-pro/" target="_blank">https://accesspressthemes.com/wordpress-plugins/accesspress-social-icons-pro/ </a>
                             </p>
                             <p>&nbsp;</p>
                             <h3>Other products by AccessPress themes </h3>
@@ -120,4 +120,5 @@
             </div>
         </div>
     </div>
+    <?php include_once('promobar.php'); ?>
 </div>

@@ -249,7 +249,7 @@ $icon_extra = unserialize($icon_set->icon_extra);
                                                     <div class="aps-row">
                                                         <div class="aps-icon-preview <?php echo $icon_main_class;?>">
                                                             <label><?php _e('Icon Preview', 'aps-social'); ?></label>
-                                                            <img src="<?php echo esc_url_raw($icon_detail['image']); ?>"/>
+                                                            <img src="<?php echo esc_url_raw($icon_detail['image']); ?>" data-image-name="<?php echo (isset($icon_detail['image_name']))?$icon_detail['image_name']:$title;?>"/>
                                                         </div>
                                                         <div class="aps-col-full">
                                                             <div class="aps-field-wrapper form-field">
@@ -309,7 +309,8 @@ $icon_extra = unserialize($icon_set->icon_extra);
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <input type="hidden" name="icons[<?php echo esc_attr($title); ?>][image]" value="<?php echo esc_attr($icon_detail['image']) ?>" class="set_image_reference"/>
+                                                <input type="hidden" name="icons[<?php echo $title; ?>][image_name]" value="<?php echo (isset($icon_detail['image_name']))?$icon_detail['image_name']:$title;?>" />
+                                                <input type="hidden" name="icons[<?php echo esc_attr($title); ?>][image]" value="<?php echo esc_attr($icon_detail['image']) ?>" class="set_image_reference" data-image-name="<?php echo (isset($icon_detail['image_name']))?$icon_detail['image_name']:$title;?>"/>
                                                 <input type="hidden" name="icons[<?php echo esc_attr($title); ?>][border_type]" value="<?php echo esc_attr($icon_detail['border_type']) ?>"/>
                                                 <input type="hidden" name="icons[<?php echo esc_attr($title); ?>][border_thickness]" value="<?php echo esc_attr($icon_detail['border_thickness']) ?>"/>
                                                 <input type="hidden" name="icons[<?php echo esc_attr($title); ?>][border_color]" value="<?php echo esc_attr($icon_detail['border_color']) ?>"/>

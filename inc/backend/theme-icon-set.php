@@ -14,7 +14,7 @@
             <div class="aps-col-full">
                 <div class="aps-icon-preview form-field">
                     <label><?php _e('Icon Preview', 'aps-social'); ?></label>
-                    <img src="<?php echo APS_ICONS_DIR . '/' . $sub_folder . '/' . $folder . '/' . $file; ?>"/>
+                    <img src="<?php echo APS_ICONS_DIR . '/' . $sub_folder . '/' . $folder . '/' . $file; ?>" data-image-name="<?php echo $filename?>"/>
                 </div>
 
                 <div class="aps-field-wrapper form-field">
@@ -81,7 +81,8 @@
             </div>
         </div>
     </div>
-    <input type="hidden" name="icons[<?php echo $filename; ?>][image]" value="<?php echo APS_ICONS_DIR . '/' . $sub_folder . '/' . $folder . '/' . $file; ?>" class="set_image_reference"/>
+    <input type="hidden" name="icons[<?php echo $filename; ?>][image_name]" value="<?php echo $filename?>" />
+    <input type="hidden" name="icons[<?php echo $filename; ?>][image]" value="<?php echo APS_ICONS_DIR . '/' . $sub_folder . '/' . $folder . '/' . $file; ?>" class="set_image_reference" data-image-name="<?php echo $filename;?>"/>
     <input type="hidden" name="icons[<?php echo $filename; ?>][border_type]" value="none"/>
     <input type="hidden" name="icons[<?php echo $filename; ?>][border_thickness]" value="0"/>
     <input type="hidden" name="icons[<?php echo $filename; ?>][border_color]" value=""/>
