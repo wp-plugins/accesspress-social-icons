@@ -4,7 +4,7 @@ Tags: social icon, social icons, social media, social icon widget, social icons 
 Donate link: http://accesspressthemes.com/donation/
 Requires at least: 3.8
 Tested up to: 4.0
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,45 +27,52 @@ You can have more than one icon sets created and used on the site. A large icon 
 
 
 
-<strong>Features:</strong>
+= Free Features: =
 
-* Beautifully designed 12 icon sets 
-* Select from pre available icon sets or upload your own 
-* Strong customization options
+* <strong>Beautifully designed 12 icon sets</strong> 
+* <strong>Select from pre available icon sets or upload your own</strong> 
+* <strong>Strong customization options</strong>
     - Define size, set height, width of the icons
     - Set margin / spacing between icons
     - Link up your social media profiles, set link targets
     - Enable and disable the tooltips
     - Choose display type (vertical or horizontal), define no. of rows/columns 
-* Create multiple-instance of the icon sets and use them in multiple places 
-* Easy integration
+* <strong>Create multiple-instance of the icon sets and use them in multiple places</strong> 
+* <strong>Easy integration</strong>
     - Get short code for each instance you design
     - Use the short code anywhere you like: header, footer, in a widget, in the content area
-* Get some styles! 
+* <strong>Get some styles!</strong> 
     - Define styles like shadow, borders for icons 
     - Define tooltips and style it with your own color, BG color. 
-* Tool tips
+* <strong>Tool tips</strong>
     - Add some feel on your icons  - add and customize the tooltip 
     - Enable or disable tooltips
-* Make it interactive, define hover animation on icons. 
-* Make your own layout
+* <strong>Make it interactive, define hover animation on icons.</strong> 
+* <strong>Make your own layout</strong>
     - Vertical and horizontal display option
     - Select rows and columns
-* Real time live preview - check how it looks on your website before using it. 
-* Order the icons - they way you like by using easy drag and drop feature. 
-* Fully Responsive - compatible with mobile devices
-* User friendly and very interactive user interface
+* <strong>Real time live preview - check how it looks on your website before using it.</strong> 
+* <strong>Order the icons - they way you like by using easy drag and drop feature.</strong> 
+* <strong>Fully Responsive - compatible with mobile devices</strong>
+* <strong>User friendly and very interactive user interface</strong>
     - Anyone can use it, its as easy as drag and drop. 
-* SEO friendly
+* <strong>SEO friendly</strong>
     - Use your own image alt/title tags for hover-over text
     - Google will love it!
-* Upgrades available 
+* <strong>Upgrades available</strong> 
     - For more features like SVG icon sets, Font Awesome icon sets, Amazing sidebar options - upgrade to Pro. 
-* Support 
+* <strong>Support</strong> 
     - Dedicated email, forum support 
-* Free updates
+* <strong>Free updates</strong>
     - Get free updates for lifetime. 
 
+= Premium Features = 
+* <strong>Beautifully Designed more SVG and PNG icon sets</strong>
+* <strong>105 Font Awesome Icons with designer and live preview</strong>
+* <strong>Social Sidebar with various configurable options (position, animations, margins etc) with live preview</strong>
+* <strong>Retina Ready SVG icons(width and height won't effect the icons quality)</strong>
+* <strong>Advanced Customization for both image and font icons</strong>
+* <strong>And many more...</strong>
 
 
 = Some Useful Links =
@@ -109,6 +116,9 @@ Once you install the plugin , you can check some general documentation about how
 4. Backend Lcon Sets Listing 
 
 == Changelog ==
+= 1.0.4 =
+* Some minor changes 
+
 = 1.0.3 =
 * Fixed small bug regarding the icon theme switching  
 
