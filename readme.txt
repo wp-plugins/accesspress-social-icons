@@ -74,6 +74,8 @@ You can have more than one icon sets created and used on the site. A large icon 
 * <strong>Advanced Customization for both image and font icons</strong>
 * <strong>And many more...</strong>
 
+= Premium Upgrades =
+* For Premium upgrades please go [here](http://accesspressthemes.com/wordpress-plugins/accesspress-social-icons-pro/).
 
 = Some Useful Links =
 * <strong>Support Email</strong>: support@accesspressthemes.com
