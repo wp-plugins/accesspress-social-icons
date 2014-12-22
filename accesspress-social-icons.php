@@ -4,7 +4,7 @@ defined('ABSPATH') or die("No script kiddies please!");
  * Plugin Name:AccessPress Social Icons
  * Plugin URI: https://accesspressthemes.com/wordpress-plugins/accesspress-social-icons/
  * Description: A plugin to add social icons in your site wherever you want dynamically with handful of configurable settings.
- * Version:1.0.4
+ * Version:1.0.5
  * Author:AccessPress Themes
  * Author URI:http://accesspressthemes.com/
  * Text Domain: aps-social
