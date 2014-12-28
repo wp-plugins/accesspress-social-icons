@@ -76,7 +76,7 @@
                                                 <input type="text" name="margins"/>
                                             </div>
                                             <div class="aps-field-note">
-                                                <p><?php _e('Please enter the margin for each icon in px.Default margin is 3px.', 'aps-social'); ?></p>
+                                                <p><?php _e('Please enter the margin for each icon in px.', 'aps-social'); ?></p>
                                             </div>
                                         </div><!--aps-field-wrapper-->
                                     </div>

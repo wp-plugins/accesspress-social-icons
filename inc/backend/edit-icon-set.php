@@ -103,7 +103,7 @@ $icon_extra = unserialize($icon_set->icon_extra);
                                             </div>
                                             <div class="aps-field-note">
                                                 <p>
-                                                    <?php _e('Please enter the margin for each icon in px.Default margin is 3px.', 'aps-social'); ?>
+                                                    <?php _e('Please enter the margin for each icon in px.', 'aps-social'); ?>
                                                 </p>
                                             </div>
                                         </div><!--aps-field-wrapper-->
