@@ -4,7 +4,7 @@ defined('ABSPATH') or die("No script kiddies please!");
  * Plugin Name:AccessPress Social Icons
  * Plugin URI: https://accesspressthemes.com/wordpress-plugins/accesspress-social-icons/
  * Description: A plugin to add social icons in your site wherever you want dynamically with handful of configurable settings.
- * Version:1.0.6
+ * Version:1.0.7
  * Author:AccessPress Themes
  * Author URI:http://accesspressthemes.com/
  * Text Domain: aps-social
@@ -31,7 +31,7 @@ if (!defined('APS_LANG_DIR')) {
 }
 if(!defined('APS_VERSION'))
 {
-    define('APS_VERSION','1.0.6');
+    define('APS_VERSION','1.0.7');
 }
 /**
  * Register of widgets
@@ -238,9 +238,7 @@ if (!class_exists('APS_Class')) {
                             <?php
                         }
                     }
-                    /* $icon_set_path = 'icon-sets/set1';
-                      $images = glob($icon_set_path . "*.*");
-                      $this->print_array($images); */
+                    
                     ?>
                         </div>
                     </div><!--aps-set-wrapper-->

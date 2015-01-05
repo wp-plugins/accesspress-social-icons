@@ -4,7 +4,6 @@
     $icon_counter = 0;
     $group_icon_counter = 0;
     $total_display_icons = $this->get_total_display_icons($icon_details);
-    //$this->print_array($icon_details);
     $total_rows = ($icon_set->num_rows == '') ? 1 : $icon_set->num_rows;
     $total_columns = ($icon_extra['num_columns'] == '') ? 1 : $icon_extra['num_columns'];
     if ($icon_set->icon_display == 'horizontal') {
@@ -24,7 +23,6 @@
 
 
         if ($icon['link'] != '') {
-            //$this->print_array($icon);
             $icon_style = '<style class="aps-icon-front-style">';
             $icon_counter++;
             $group_icon_counter++;
