@@ -371,7 +371,7 @@ $icon_extra = unserialize($icon_set->icon_extra);
                             <input type="hidden" name="si_id" value="<?php echo $si_id; ?>"/>
                             <input type="hidden" name="current_page" value="<?php echo $this->curPageURL(); ?>"/>
                             <input type="hidden" name="icon_theme_id" id="icon_theme_id" value="<?php echo $icon_extra['icon_theme_id']; ?>"/>
-                            <input type="hidden" name="icon_theme_type" value="<?php echo $icon_extra['icon_theme_type']; ?>" id="icon_theme_type"/>
+                            
                         </div>
                         <?php wp_nonce_field('aps_edit_action', 'aps_edit_set_nonce'); ?>
                     </form>
