@@ -35,6 +35,7 @@ class APS_Widget extends WP_Widget {
             $si_id = $instance['si_id'];
             echo do_shortcode('[aps-social id="'.$si_id.'"]');
         }
+        echo $args['after_widget'];
 	}
 
 	/**

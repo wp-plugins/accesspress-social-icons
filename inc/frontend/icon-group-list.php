@@ -50,7 +50,7 @@
                         $offset_x = ($offset_x == '') ? '0' : $offset_x;
                         $offset_y = str_replace('px', '', $icon['shadow_offset_y']);
                         $offset_y = ($offset_y == '') ? '0' : $offset_y;
-                        $blur = str_replace('px', '', $icon['shadow_blur']);
+                        $blur = str_replace('px', '', isset($icon['shadow_blur'])?$icon['shadow_blur']:0);
                         $blur = ($blur == '') ? '0' : $blur;
                         $shadow_color = $icon['shadow_color'];
                         if ($shadow_type != 'no') {
