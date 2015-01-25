@@ -4,7 +4,7 @@ Tags: social icon, social icons, social media, social icon widget, social icons 
 Donate link: http://accesspressthemes.com/donation/
 Requires at least: 3.8
 Tested up to: 4.1
-Stable tag: 1.0.9
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -118,6 +118,9 @@ Once you install the plugin , you can check some general documentation about how
 4. Backend Lcon Sets Listing 
 
 == Changelog ==
+= 1.1.0 =
+* Fixed white background issue
+
 = 1.0.9 =
 * Fixed small bug regarding shadow blur
 * Fixed small bug for unclosed aside tag in widget section

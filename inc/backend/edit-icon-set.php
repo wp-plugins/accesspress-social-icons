@@ -317,7 +317,7 @@ $icon_extra = unserialize($icon_set->icon_extra);
                                                 <input type="hidden" name="icons[<?php echo esc_attr($title); ?>][shadow]" value="<?php echo esc_attr($icon_detail['shadow']) ?>"/>
                                                 <input type="hidden" name="icons[<?php echo esc_attr($title); ?>][shadow_offset_x]" value="<?php echo esc_attr($icon_detail['shadow_offset_x']) ?>"/>
                                                 <input type="hidden" name="icons[<?php echo esc_attr($title); ?>][shadow_offset_y]" value="<?php echo esc_attr($icon_detail['shadow_offset_y']) ?>"/>
-                                                <input type="hidden" name="icons[<?php echo esc_attr($title); ?>][shadow_blur]" value="<?php echo esc_attr($icon_detail['shadow_blur']) ?>"/>
+                                                <input type="hidden" name="icons[<?php echo esc_attr($title); ?>][shadow_blur]" value="<?php echo isset($icon_detail['shadow_blur'])?esc_attr($icon_detail['shadow_blur']):''; ?>"/>
                                                 <input type="hidden" name="icons[<?php echo esc_attr($title); ?>][shadow_color]" value="<?php echo esc_attr($icon_detail['shadow_color']) ?>"/>
                                                 <input type="hidden" name="icons[<?php echo esc_attr($title); ?>][padding]" value="<?php echo esc_attr($icon_detail['padding']) ?>"/>
                                                 <?php
@@ -330,7 +330,7 @@ $icon_extra = unserialize($icon_set->icon_extra);
                                                 $offset_x = ($offset_x == '') ? '0' : $offset_x;
                                                 $offset_y = str_replace('px', '', $icon_detail['shadow_offset_y']);
                                                 $offset_y = ($offset_y == '') ? '0' : $offset_y;
-                                                $blur = str_replace('px', '', $icon_detail['shadow_blur']);
+                                                $blur = str_replace('px', '', isset($icon_detail['shadow_blur'])?$icon_detail['shadow_blur']:'');
                                                 $blur = ($blur == '') ? '0' : $blur;
                                                 $shadow_color = $icon_detail['shadow_color'];
                                                 if ($shadow_type != 'no') {

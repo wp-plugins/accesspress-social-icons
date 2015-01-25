@@ -1,13 +1,13 @@
 .aps-each-icon{
 	display:inline-block;
 	position:relative;
-	background:#fff;
+	
 }
 .aps-each-icon a{
 	display:block;
 	position:relative;
 	z-index:555;
-	background:#fff;
+	
 }
 .aps-each-icon img{
 	-webkit-transition: opacity 0.3s ease-in-out;

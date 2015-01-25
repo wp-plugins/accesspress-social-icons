@@ -4,7 +4,7 @@ defined('ABSPATH') or die("No script kiddies please!");
  * Plugin Name:AccessPress Social Icons
  * Plugin URI: https://accesspressthemes.com/wordpress-plugins/accesspress-social-icons/
  * Description: A plugin to add social icons in your site wherever you want dynamically with handful of configurable settings.
- * Version:1.0.9
+ * Version:1.1.0
  * Author:AccessPress Themes
  * Author URI:http://accesspressthemes.com/
  * Text Domain: aps-social
@@ -31,7 +31,7 @@ if (!defined('APS_LANG_DIR')) {
 }
 if(!defined('APS_VERSION'))
 {
-    define('APS_VERSION','1.0.9');
+    define('APS_VERSION','1.1.0');
 }
 /**
  * Register of widgets
@@ -46,9 +46,9 @@ if (!class_exists('APS_Class')) {
         function __construct() {
             register_activation_hook(__FILE__, array($this, 'plugin_activation')); //calls plugin activation function
             add_action('init', array($this, 'plugin_text_domain')); //loads text domain for translation ready
-            add_action('init', array($this, 'register_frontend_assets'));//registers assets for frontend
+            add_action('wp_enqueue_scripts', array($this, 'register_frontend_assets'));//registers assets for frontend
             add_action('admin_menu', array($this, 'add_aps_menu')); //adds plugin menu in wp-admin
-            add_action('admin_init', array($this, 'register_admin_assets')); //registers all the assets required for wp-admin
+            add_action('admin_enqueue_scripts', array($this, 'register_admin_assets')); //registers all the assets required for wp-admin
             add_action('admin_init', array($this, 'admin_session_init')); //intializes session 
             add_action('admin_post_aps_add_new_set', array($this, 'aps_add_new_set')); //add new set action
             add_action('admin_post_aps_edit_action', array($this, 'aps_edit_action')); //icon set edit action
