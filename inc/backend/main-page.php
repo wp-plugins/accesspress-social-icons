@@ -60,6 +60,7 @@
                             foreach ($icon_sets as $icon_set) {
                                 $edit_nonce = wp_create_nonce('aps-edit-nonce');
                                 $delete_nonce = wp_create_nonce('aps-delete-nonce');
+                                $copy_nonce = wp_create_nonce('aps-copy-nonce');
                                 ?>
                                 <tr <?php if ($icon_set_counter % 2 != 0) { ?>class="alternate"<?php } ?>>
                                     <td class="title column-title">
@@ -68,7 +69,11 @@
                                                 <?php echo esc_attr($icon_set->icon_set_name); ?>
                                             </a>
                                         </strong>
-                                        <div class="row-actions"><span class="edit"><a href="<?php echo admin_url() . 'admin.php?page=aps-social&action=edit_si&si_id=' . $icon_set->si_id . '&_wpnonce=' . $edit_nonce; ?>">Edit</a> | </span><span class="delete"><a href="<?php echo admin_url() . 'admin-post.php?action=aps_delete_action&si_id=' . $icon_set->si_id . '&_wpnonce=' . $delete_nonce; ?>" onclick="return confirm('<?php _e('Are you sure you want to delete this icon set?', 'aps-social'); ?>')">Delete</a></span></div>
+                                        <div class="row-actions">
+                                            <span class="edit"><a href="<?php echo admin_url() . 'admin.php?page=aps-social&action=edit_si&si_id=' . $icon_set->si_id . '&_wpnonce=' . $edit_nonce; ?>">Edit</a> | </span>
+                                            <span class="copy"><a href="<?php echo admin_url() . 'admin-post.php?action=aps_copy_action&si_id=' . $icon_set->si_id . '&_wpnonce=' . $copy_nonce; ?>" onclick="return confirm('<?php _e('Are you sure you want to copy this icon set?', 'aps-social'); ?>')">Copy</a> | </span>
+                                            <span class="delete"><a href="<?php echo admin_url() . 'admin-post.php?action=aps_delete_action&si_id=' . $icon_set->si_id . '&_wpnonce=' . $delete_nonce; ?>" onclick="return confirm('<?php _e('Are you sure you want to delete this icon set?', 'aps-social'); ?>')">Delete</a></span>
+                                        </div>
                                     </td>
                                     <td class="shortcode column-shortcode"><input type="text" onFocus="this.select();" readonly="readonly" value="[aps-social id=&quot;<?php echo $icon_set->si_id; ?>&quot;]" class="shortcode-in-list-table wp-ui-text-highlight code"></td>
                                     <td class="shortcode column-shortcode"><input type="text" onFocus="this.select();" readonly="readonly" value="&lt;?php echo do_shortcode('[aps-social id=&quot;<?php echo $icon_set->si_id; ?>&quot;]')?&gt;" class="shortcode-in-list-table wp-ui-text-highlight code"></td>

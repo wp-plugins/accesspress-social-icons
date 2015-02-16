@@ -4,7 +4,7 @@ defined('ABSPATH') or die("No script kiddies please!");
  * Plugin Name:AccessPress Social Icons
  * Plugin URI: https://accesspressthemes.com/wordpress-plugins/accesspress-social-icons/
  * Description: A plugin to add social icons in your site wherever you want dynamically with handful of configurable settings.
- * Version:1.1.2
+ * Version:1.1.3
  * Author:AccessPress Themes
  * Author URI:http://accesspressthemes.com/
  * Text Domain: aps-social
@@ -31,7 +31,7 @@ if (!defined('APS_LANG_DIR')) {
 }
 if(!defined('APS_VERSION'))
 {
-    define('APS_VERSION','1.1.2');
+    define('APS_VERSION','1.1.3');
 }
 /**
  * Register of widgets
@@ -53,6 +53,7 @@ if (!class_exists('APS_Class')) {
             add_action('admin_post_aps_add_new_set', array($this, 'aps_add_new_set')); //add new set action
             add_action('admin_post_aps_edit_action', array($this, 'aps_edit_action')); //icon set edit action
             add_action('admin_post_aps_delete_action', array($this, 'aps_delete_action')); //icon set delete action
+            add_action('admin_post_aps_copy_action', array($this, 'aps_copy_action')); //icon set copy action
             add_shortcode('aps-social', array($this, 'aps_social_shortcode')); //adds the aps-social shortcode
             add_action('wp_ajax_aps_icon_list_action', array($this, 'aps_icon_list_action')); //admin ajax action for icon listing 
             add_action('wp_ajax_nopriv_aps_icon_list_action', array($this, 'no_permission')); //action for unauthenticate admin ajax call
@@ -171,6 +172,15 @@ if (!class_exists('APS_Class')) {
                 die('No script kiddies please!');
             }
         }
+        //Icon set copy section
+        function aps_copy_action() {
+            if (isset($_GET['action'], $_GET['_wpnonce']) && wp_verify_nonce($_GET['_wpnonce'], 'aps-copy-nonce')) {
+                include_once('inc/backend/copy-icon-set.php');
+            } else {
+                die('No script kiddies please!');
+            }
+        }
+        
 
         //Icon set edit action
         function aps_edit_action() {
