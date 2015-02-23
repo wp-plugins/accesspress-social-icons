@@ -71,11 +71,9 @@ You can have more than one icon sets created and used on the site. A large icon 
 
 	★ 105 Font Awesome Icons with designer and live preview
 	
-	★ Social Sidebar with various configurable options(position, animations, margins etc)
-     with live preview
+	★ Social Sidebar with various configurable options(position, animations, margins etc) with live preview
 	
-	★ Retina Ready SVG icons(width and height won't 
-    effect the icons quality)
+	★ Retina Ready SVG icons(width and height won't effect the icons quality)
 	
 	★ Advanced Customization for both image and font icons
 	
