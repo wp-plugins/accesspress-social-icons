@@ -21,7 +21,7 @@ Once the icon set is defined/customized - you can place it anywhere you want usi
 
 You can have more than one icon sets created and used on the site. A large icon sets on the header and a tiny one on the footer - for example. 
 
-<strong><em>For more features like SVG icon sets, font awesome icon sets, amazing customization options, feature rich sidebar options - upgrade to PRO version.</em></strong>
+`For more features like SVG icon sets, font awesome icon sets, amazing customization options, feature rich sidebar options - upgrade to PRO version.`
 
 
 
