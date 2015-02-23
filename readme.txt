@@ -67,17 +67,21 @@ You can have more than one icon sets created and used on the site. A large icon 
     - Get free updates for lifetime. 
 
 = Premium Features = 
-	★ <strong>Beautifully Designed more SVG and PNG icon sets</strong> <br />
+	★ Beautifully Designed more SVG and PNG icon sets
 
-	★ <strong>105 Font Awesome Icons with designer and live preview</strong><br />
+	★ 105 Font Awesome Icons with 
+    designer and live preview
 	
-	★ <strong>Social Sidebar with various configurable options (position, animations, margins etc) with live preview</strong><br />
+	★ Social Sidebar with various configurable options
+     (position, animations, margins etc) with live preview
 	
-	★ <strong>Retina Ready SVG icons(width and height won't effect the icons quality)</strong><br />
+	★ Retina Ready SVG icons
+    (width and height won't effect the icons quality)
 	
-	★ <strong>Advanced Customization for both image and font icons</strong><br />
+	★ Advanced Customization for both 
+    image and font icons
 	
-	★ <strong>And many more...</strong><br />
+	★ And many more...
 	
 	
 
