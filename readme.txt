@@ -67,15 +67,22 @@ You can have more than one icon sets created and used on the site. A large icon 
     - Get free updates for lifetime. 
 
 = Premium Features = 
-? <strong>Beautifully Designed more SVG and PNG icon sets</strong> <br />
-? <strong>105 Font Awesome Icons with designer and live preview</strong><br />
-? <strong>Social Sidebar with various configurable options (position, animations, margins etc) with live preview</strong><br />
-? <strong>Retina Ready SVG icons(width and height won't effect the icons quality)</strong><br />
-? <strong>Advanced Customization for both image and font icons</strong><br />
-? <strong>And many more...</strong><br />
+	? <strong>Beautifully Designed more SVG and PNG icon sets</strong> <br />
+
+	? <strong>105 Font Awesome Icons with designer and live preview</strong><br />
+	
+	? <strong>Social Sidebar with various configurable options (position, animations, margins etc) with live preview</strong><br />
+	
+	? <strong>Retina Ready SVG icons(width and height won't effect the icons quality)</strong><br />
+	
+	? <strong>Advanced Customization for both image and font icons</strong><br />
+	
+	? <strong>And many more...</strong><br />
+	
+	
 
 = Premium Upgrades =
-? For Premium upgrades please go [here](http://accesspressthemes.com/wordpress-plugins/accesspress-social-icons-pro/).
+?  For Premium upgrades please go [here](http://accesspressthemes.com/wordpress-plugins/accesspress-social-icons-pro/).
 
 = Some Useful Links =
 * <strong>Support Email</strong>: support@accesspressthemes.com
