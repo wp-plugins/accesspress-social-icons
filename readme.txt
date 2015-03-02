@@ -1,10 +1,10 @@
-﻿=== AccessPress Social Icons ===
+=== AccessPress Social Icons ===
 Contributors: Access Keys
 Tags: social icon, social icons, social media, social icon widget, social icons widget, social media icons, social media plugin, social networking, social profiles, wordpress social icons, wp social icons
 Donate link: http://accesspressthemes.com/donation/
 Requires at least: 3.8
 Tested up to: 4.1
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,13 +21,7 @@ Once the icon set is defined/customized - you can place it anywhere you want usi
 
 You can have more than one icon sets created and used on the site. A large icon sets on the header and a tiny one on the footer - for example. 
 
-`For more features like SVG icon sets, font awesome icon sets, amazing
- customization options, feature rich sidebar options - upgrade to
- PRO version.`
-
-
-
-
+<strong><em>For more features like SVG icon sets, font awesome icon sets, amazing customization options, feature rich sidebar options - upgrade to PRO version.</em></strong>
 
 = Free Features: =
 
@@ -69,23 +63,15 @@ You can have more than one icon sets created and used on the site. A large icon 
     - Get free updates for lifetime. 
 
 = Premium Features = 
-	★ Beautifully Designed more SVG and PNG icon sets
-
-	★ 105 Font Awesome Icons with designer and live preview
-	
-	★ Social Sidebar with various configurable options(position, animations,
-     margins etc)with live preview
-	
-	★ Retina Ready SVG icons(width and height won't effect the icons quality)
-	
-	★ Advanced Customization for both image and font icons
-	
-	★ And many more...
-	
-	
+? <strong>Beautifully Designed more SVG and PNG icon sets</strong> <br />
+? <strong>105 Font Awesome Icons with designer and live preview</strong><br />
+? <strong>Social Sidebar with various configurable options (position, animations, margins etc) with live preview</strong><br />
+? <strong>Retina Ready SVG icons(width and height won't effect the icons quality)</strong><br />
+? <strong>Advanced Customization for both image and font icons</strong><br />
+? <strong>And many more...</strong><br />
 
 = Premium Upgrades =
-★  For Premium upgrades please go [here](http://accesspressthemes.com/wordpress-plugins/accesspress-social-icons-pro/).
+? For Premium upgrades please go [here](http://accesspressthemes.com/wordpress-plugins/accesspress-social-icons-pro/).
 
 = Some Useful Links =
 * <strong>Support Email</strong>: support@accesspressthemes.com
@@ -128,6 +114,9 @@ Once you install the plugin , you can check some general documentation about how
 4. Backend Lcon Sets Listing 
 
 == Changelog ==
+= 1.1.5 = 
+* Done some modifications in icon sets edit section
+
 = 1.1.4 = 
 * Added some more translation ready texts
 

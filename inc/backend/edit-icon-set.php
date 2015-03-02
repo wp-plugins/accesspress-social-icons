@@ -190,10 +190,10 @@ $icon_extra = unserialize($icon_set->icon_extra);
                                             <label><?php _e('Opacity on Non Hover', 'aps-social'); ?></label>
                                             <div class="aps-field">
                                                 <select name="opacity_hover" class="aps-form-control">
-                                                    <option value="1" <?php if ($icon_set->opacity_hover == 1) { ?>selected="selected"<?php } ?>>1</option>
-                                                    <option value="0.75" <?php if ($icon_set->opacity_hover == 0.75) { ?>selected="selected"<?php } ?>>0.75</option>
-                                                    <option value="0.5" <?php if ($icon_set->opacity_hover == 0.5) { ?>selected="selected"<?php } ?>>0.5</option>
-                                                    <option value="0.25" <?php if ($icon_set->opacity_hover == 0.25) { ?>selected="selected"<?php } ?>>0.25</option>
+                                                    <option value="1" <?php selected($icon_set->opacity_hover,1);?>>1</option>
+                                                    <option value="0.75" <?php selected($icon_set->opacity_hover,0.75);?>>0.75</option>
+                                                    <option value="0.5" <?php selected($icon_set->opacity_hover,0.5);?>>0.5</option>
+                                                    <option value="0.25" <?php selected($icon_set->opacity_hover,0.25);?>>0.25</option>
                                                 </select>
                                             </div>
                                         </div><!--aps-field-wrapper form-field-->
@@ -349,7 +349,6 @@ $icon_extra = unserialize($icon_set->icon_extra);
                                                 $padding = str_replace('px', '', $icon_detail['padding']);
                                                 $padding = "padding:{$padding}px;";
                                                 $icon_style =".$icon_main_class img{height:{$icon_height}px;width:{$icon_width}px;{$border}{$shadow}{$padding}";
-                                                //if($icon[''])
                                                 ?>
                                                 <style><?php echo $icon_style;?></style>
                                             </li>
