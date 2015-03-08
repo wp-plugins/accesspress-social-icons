@@ -2,7 +2,7 @@
     <div class="aps-row">
         <div class="aps-col-logo">
             <div class="aps-logo">
-                <img src="<?php echo APS_IMAGE_DIR.'/logo-social.png'?>" alt="AccessPress Social Icons"/>
+                <img src="<?php echo APS_IMAGE_DIR.'/logo-social.png'?>" alt="<?php _e('AccessPress Social Icons','aps-social')?>"/>
             </div>
         </div>
         <div class="aps-col-socials">
@@ -26,7 +26,7 @@
         </div>
         <div class="aps-col-title">
             <div class="aps-title">
-                AccessPress Social Icons
+                <?php _e('AccessPress Social Icons','aps-social');?>
             </div>
         </div>
     </div>

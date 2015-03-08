@@ -1,8 +1,7 @@
-<?php defined('ABSPATH') or die("No script kiddies please!");?>
-<?php 
+<?php defined('ABSPATH') or die("No script kiddies please!");
 /**
- * Posted Variables
- * [action] => aps_add_new_set
+ *  Posted Variables
+ *  [action] => aps_add_new_set
     [set_name] => Testing Icon
     [display] => horizontal
     [num_rows] => 1
