@@ -236,11 +236,11 @@ $icon_extra = unserialize($icon_set->icon_extra);
                                                 <div class="aps-icon-head">
                                                     <span class="aps-icon-name"><?php echo esc_attr($title); ?></span>
                                                     <span class="aps-icon-list-controls">
-                                                        <span class="aps-delete-icon button button-secondary" aria-label="delete icons">
-                                                            <i class="dashicons dashicons-trash"></i>
-                                                        </span>
                                                         <span class="aps-arrow-down aps-arrow button button-secondary" aria-label="expand icons">
                                                             <i class="dashicons dashicons-arrow-down"></i>
+                                                        </span>
+                                                        <span class="aps-delete-icon button button-secondary" aria-label="delete icons">
+                                                            <i class="dashicons dashicons-trash"></i>
                                                         </span>
                                                     </span>
                                                 </div>
