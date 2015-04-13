@@ -1,10 +1,10 @@
-=== AccessPress Social Icons ===
+﻿=== AccessPress Social Icons ===
 Contributors: Access Keys
 Tags: social icon, social icons, social media, social icon widget, social icons widget, social media icons, social media plugin, social networking, social profiles, wordpress social icons, wp social icons
 Donate link: http://accesspressthemes.com/donation/
 Requires at least: 3.8
 Tested up to: 4.1
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -63,15 +63,21 @@ You can have more than one icon sets created and used on the site. A large icon 
     - Get free updates for lifetime. 
 
 = Premium Features = 
-? <strong>Beautifully Designed more SVG and PNG icon sets</strong> <br />
-? <strong>105 Font Awesome Icons with designer and live preview</strong><br />
-? <strong>Social Sidebar with various configurable options (position, animations, margins etc) with live preview</strong><br />
-? <strong>Retina Ready SVG icons(width and height won't effect the icons quality)</strong><br />
-? <strong>Advanced Customization for both image and font icons</strong><br />
-? <strong>And many more...</strong><br />
+★ Beautifully Designed more SVG and PNG icon sets
+
+★ 105 Font Awesome Icons with designer and live preview
+
+★ Social Sidebar with various configurable options (position, animations,
+    margins etc) with live preview
+    
+★ Retina Ready SVG icons(width and height won't effect the icons quality)
+
+★ Advanced Customization for both image and font icons
+
+★ And many more...
 
 = Premium Upgrades =
-? For Premium upgrades please go [here](http://accesspressthemes.com/wordpress-plugins/accesspress-social-icons-pro/).
+★ For Premium upgrades please go [here](http://accesspressthemes.com/wordpress-plugins/accesspress-social-icons-pro/).
 
 = Some Useful Links =
 * <strong>Support Email</strong>: support@accesspressthemes.com
@@ -114,6 +120,9 @@ Once you install the plugin , you can check some general documentation about how
 4. Backend Lcon Sets Listing 
 
 == Changelog ==
+= 1.2.1 = 
+* Fixed small css issues for icon theme 2 
+
 = 1.2.0 = 
 * Fixed small css issues for icon theme 1 
 
