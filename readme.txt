@@ -66,7 +66,6 @@ You can have more than one icon sets created and used on the site. A large icon 
 
 	★ Beautifully Designed more SVG and PNG icon sets
 
-
 	★ 105 Font Awesome Icons with designer and live preview
 
 	★ Social Sidebar with various configurable options (position, animations,
