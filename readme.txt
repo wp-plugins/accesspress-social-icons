@@ -124,6 +124,9 @@ Once you install the plugin , you can check some general documentation about how
 4. Backend Lcon Sets Listing 
 
 == Changelog ==
+= 1.3.4 = 
+* Fixed small css conflict for icon theme 2
+
 = 1.3.3 = 
 * Fixed small css conflict for icon theme 1 
 
