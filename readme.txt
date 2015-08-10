@@ -3,8 +3,8 @@ Contributors: Access Keys
 Tags: social icon, social icons, social media, social icon widget, social icons widget, social media icons, social media plugin, social networking, social profiles, wordpress social icons, wp social icons
 Donate link: http://accesspressthemes.com/donation/
 Requires at least: 3.8
-Tested up to: 4.2
-Stable tag: 1.3.5
+Tested up to: 4.3
+Stable tag: 1.3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -124,6 +124,9 @@ Once you install the plugin , you can check some general documentation about how
 4. Backend Lcon Sets Listing 
 
 == Changelog ==
+= 1.3.6 = 
+* Fixed small css conflict for icon theme 4
+
 = 1.3.5 = 
 * Fixed small css conflict for icon theme 3
 
