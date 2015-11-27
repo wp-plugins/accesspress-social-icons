@@ -5,7 +5,7 @@
             <div class="aps-panel-body">
                 <div class="aps-row">
                     <div class="aps-col-two-third">
-                        <h2><?php _e('About Us', 'aps-social'); ?></h2>
+                        <h2><?php _e('About Us', 'accesspress-social-icons'); ?></h2>
                         <div class="ap-tab-wrapper">
                             <p><strong>AccessPress Social Icons </strong> - is a FREE WordPress Plugin by AccessPress Themes. </p>
 
@@ -32,7 +32,7 @@
                             <div class="aps-row">
                                 <div class="aps-col-half">
                                     <div class="product">
-                                        <div class="logo-product"><img src="<?php echo APS_IMAGE_DIR; ?>/aplite.png" alt="<?php esc_attr_e('AccessPress Social Icons', 'aps-social'); ?>" />
+                                        <div class="logo-product"><img src="<?php echo APS_IMAGE_DIR; ?>/aplite.png" alt="<?php esc_attr_e('AccessPress Social Icons', 'accesspress-social-icons'); ?>" />
                                         </div>
                                         <div class="productext">
                                             <p><strong>AccessPress Lite</strong> - A very popular Free WordPress theme, available in WordPress.org

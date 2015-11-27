@@ -4,7 +4,7 @@
             <?php include('panel-head.php'); ?>
             <div class="aps-panel-body">
 
-                <h2><?php _e('How to use', 'aps-social'); ?></h2>
+                <h2><?php _e('How to use', 'accesspress-social-icons'); ?></h2>
                 <p>For full <strong>documentation</strong> on the plugin, please visit <a href="https://accesspressthemes.com/documentation/documentationplugin-instruction-accesspress-social-icons/" target="_blank">https://accesspressthemes.com/documentation/documentationplugin-instruction-accesspress-social-icons/</a></p>
                 <p>For displaying the icons in the frontend, you need to build the icon set first.You can build unlimited number of icons sets which will generate the shortcode for each icons set.And also the build icon sets will be available in the widget section too.</p>
                 <p>For building icons sets, currently there are two methods.Either you build your own set or build the sets using pre available icon themes.</p>

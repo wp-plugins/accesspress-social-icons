@@ -28,22 +28,22 @@
                     <thead>
                         <tr>
                             <th scope="col" id="title" class="manage-column column-title sortable asc" style="">
-                                <a href="javascript:void(0)"> <span><?php _e('Title', 'aps-social'); ?></span> </a>
+                                <a href="javascript:void(0)"> <span><?php _e('Title', 'accesspress-social-icons'); ?></span> </a>
                             </th>
                             <th scope="col" id="shortcode" class="manage-column column-shortcode" style="">
-                                <?php _e('Shortcode', 'aps-social'); ?>
+                                <?php _e('Shortcode', 'accesspress-social-icons'); ?>
                             </th>
                             <th scope="col" id="template-shortcode" class="manage-column column-shortcode" style="">
-                                <?php _e('Template Shortcode', 'aps-social'); ?>
+                                <?php _e('Template Shortcode', 'accesspress-social-icons'); ?>
                             </th>
                         </tr>
                     </thead>
                     <tfoot>
                         <tr>
-                            <th scope="col" class="manage-column column-title sortable asc" style=""><a href="javascript:void(0)"><span><?php _e('Title', 'aps-social'); ?></span></a></th>
-                            <th scope="col" class="manage-column column-shortcode" style=""><?php _e('Shortcode', 'aps-social'); ?></th>
+                            <th scope="col" class="manage-column column-title sortable asc" style=""><a href="javascript:void(0)"><span><?php _e('Title', 'accesspress-social-icons'); ?></span></a></th>
+                            <th scope="col" class="manage-column column-shortcode" style=""><?php _e('Shortcode', 'accesspress-social-icons'); ?></th>
                             <th scope="col" id="template-shortcode" class="manage-column column-shortcode" style="">
-                                <?php _e('Template Shortcode', 'aps-social'); ?>
+                                <?php _e('Template Shortcode', 'accesspress-social-icons'); ?>
                             </th>
                         </tr>
                     </tfoot>
@@ -71,8 +71,8 @@
                                         </strong>
                                         <div class="row-actions">
                                             <span class="edit"><a href="<?php echo admin_url() . 'admin.php?page=aps-social&action=edit_si&si_id=' . $icon_set->si_id . '&_wpnonce=' . $edit_nonce; ?>">Edit</a> | </span>
-                                            <span class="copy"><a href="<?php echo admin_url() . 'admin-post.php?action=aps_copy_action&si_id=' . $icon_set->si_id . '&_wpnonce=' . $copy_nonce; ?>" onclick="return confirm('<?php _e('Are you sure you want to copy this icon set?', 'aps-social'); ?>')">Copy</a> | </span>
-                                            <span class="delete"><a href="<?php echo admin_url() . 'admin-post.php?action=aps_delete_action&si_id=' . $icon_set->si_id . '&_wpnonce=' . $delete_nonce; ?>" onclick="return confirm('<?php _e('Are you sure you want to delete this icon set?', 'aps-social'); ?>')">Delete</a></span>
+                                            <span class="copy"><a href="<?php echo admin_url() . 'admin-post.php?action=aps_copy_action&si_id=' . $icon_set->si_id . '&_wpnonce=' . $copy_nonce; ?>" onclick="return confirm('<?php _e('Are you sure you want to copy this icon set?', 'accesspress-social-icons'); ?>')">Copy</a> | </span>
+                                            <span class="delete"><a href="<?php echo admin_url() . 'admin-post.php?action=aps_delete_action&si_id=' . $icon_set->si_id . '&_wpnonce=' . $delete_nonce; ?>" onclick="return confirm('<?php _e('Are you sure you want to delete this icon set?', 'accesspress-social-icons'); ?>')">Delete</a></span>
                                         </div>
                                     </td>
                                     <td class="shortcode column-shortcode"><input type="text" onFocus="this.select();" readonly="readonly" value="[aps-social id=&quot;<?php echo $icon_set->si_id; ?>&quot;]" class="shortcode-in-list-table wp-ui-text-highlight code"></td>
@@ -83,7 +83,7 @@
                             }
                         } else {
                             ?>
-                            <tr><td colspan="2"><div class="aps-noresult"><?php _e('Icon sets not added yet', 'aps-social'); ?></div></td></tr>
+                            <tr><td colspan="2"><div class="aps-noresult"><?php _e('Icon sets not added yet', 'accesspress-social-icons'); ?></div></td></tr>
                             <?php
                         }
                         ?>

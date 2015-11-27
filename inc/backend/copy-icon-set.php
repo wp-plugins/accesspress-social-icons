@@ -57,6 +57,6 @@ array(
         '%s' 
 	)
  );
- $_SESSION['aps_message'] = __('Icon Set Copied Successfully','aps-social');
+ $_SESSION['aps_message'] = __('Icon Set Copied Successfully','accesspress-social-icons');
  wp_redirect(admin_url().'admin.php?page=aps-social');   
  exit;

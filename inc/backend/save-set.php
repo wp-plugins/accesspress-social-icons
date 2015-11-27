@@ -164,7 +164,7 @@ if(isset($si_id))
 	),
      array('%d')
 );
-$_SESSION['aps_message'] = __('Icon Set Updated Successfully','aps-social');
+$_SESSION['aps_message'] = __('Icon Set Updated Successfully','accesspress-social-icons');
 }
 else
 {
@@ -197,7 +197,7 @@ array(
         '%s' 
 	)
 );
-$_SESSION['aps_message'] = __('Icon Set Saved Successfully','aps-social');
+$_SESSION['aps_message'] = __('Icon Set Saved Successfully','accesspress-social-icons');
 }
 if(isset($_POST['current_page']))
 {

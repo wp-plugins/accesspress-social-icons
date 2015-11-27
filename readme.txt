@@ -4,7 +4,7 @@ Tags: social icon, social icons, social media, social icon widget, social icons 
 Donate link: http://accesspressthemes.com/donation/
 Requires at least: 3.8
 Tested up to: 4.3
-Stable tag: 1.4.1
+Stable tag: 1.4.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -124,6 +124,22 @@ Once you install the plugin , you can check some general documentation about how
 4. Backend Lcon Sets Listing 
 
 == Changelog ==
+= 1.4.6 = 
+* Added Yelp icon
+* Fixed some icons name typo
+
+= 1.4.5 = 
+* Modified widget ID  
+
+= 1.4.4 = 
+* Done some mofications for tooltip style  
+
+= 1.4.3 = 
+* Checked headers already sent before session start 
+
+= 1.4.2 = 
+* Updated text domain to match plugin's slug 
+
 = 1.4.1 = 
 * Fixed small css conflict for icon theme 9
 

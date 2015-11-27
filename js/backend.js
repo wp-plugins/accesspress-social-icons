@@ -369,7 +369,7 @@
             if (prev_theme != clicked_theme)
             {
                 var check = 1;
-                if (already_icons > 0 && already_icons!=20)
+                if (already_icons > 0 && already_icons!=21)
                 {
                     check = 0;
                     if (confirm(aps_script_variable.icon_warning))
@@ -382,7 +382,7 @@
                 {
                     $('#aps-icon-theme-loader').show();
                     
-                    var url_only = (already_icons==20)?'yes':'no';
+                    var url_only = (already_icons==21)?'yes':'no';
                     prev_theme = clicked_theme;
                     $('.aps-icon-list .aps-icon-note').remove();
                     var sub_folder = 'png';
@@ -404,18 +404,7 @@
                                         $('img[data-image-name="'+image_name+'"]').attr('src',image_array[image_name]);
                                         $('input[data-image-name="'+image_name+'"]').attr('value',image_array[image_name]);
                                     }
-                                //console.log(image_url_array);
-                                //var array_index = 0;
-//                                $('.aps-icon-preview img').each(function(){
-//                                    //alert(image_url_array[array_index])
-//                                    $(this).attr('src',image_url_array[array_index]);
-//                                    array_index++;
-//                                });
-//                                var array_index = 0;
-//                                $('.set_image_reference').each(function(){
-//                                  $(this).val(image_url_array[array_index]);
-//                                  array_index++;  
-//                                });
+                                
                             }
                             else
                             {

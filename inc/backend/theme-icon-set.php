@@ -13,19 +13,19 @@
         <div class="aps-row">
             <div class="aps-col-full">
                 <div class="aps-icon-preview form-field">
-                    <label><?php _e('Icon Preview', 'aps-social'); ?></label>
+                    <label><?php _e('Icon Preview', 'accesspress-social-icons'); ?></label>
                     <img src="<?php echo APS_ICONS_DIR . '/' . $sub_folder . '/' . $folder . '/' . $file; ?>" data-image-name="<?php echo $filename?>"/>
                 </div>
 
                 <div class="aps-field-wrapper form-field">
-                    <label><?php _e('Icon Title', 'aps-social'); ?></label>
+                    <label><?php _e('Icon Title', 'accesspress-social-icons'); ?></label>
                     <div class="aps-field">
                         <input type="text" name="icons[<?php echo $filename; ?>][title]" placeholder="eg. facebook" />
                     </div>
                 </div><!--aps-field-wrapper-->
                 <?php if ($sub_folder == 'svg') { ?>
                 <div class="aps-field-wrapper form-field">
-                    <label><?php _e('Icon Background Color', 'aps-social'); ?></label>
+                    <label><?php _e('Icon Background Color', 'accesspress-social-icons'); ?></label>
                     <div class="aps-field">
                         <input type="text" name="icons[<?php echo $filename; ?>][icon_bg_color]" class="aps-color-picker"/>
                     </div>
@@ -34,27 +34,27 @@
             </div>
             <div class="aps-col-half">
                 <div class="aps-field-wrapper form-field">
-                    <label><?php _e('Icon Width', 'aps-social'); ?></label>
+                    <label><?php _e('Icon Width', 'accesspress-social-icons'); ?></label>
                     <div class="aps-field">
                         <input type="text" name="icons[<?php echo $filename; ?>][icon_width]" class="aps_theme_icon_width" placeholder="eg. 32px"/>
                     </div>
                     <div class="aps-option-note">
-                        <p><?php _e('Please enter the width for the icon in px.', 'aps-social'); ?></p>
+                        <p><?php _e('Please enter the width for the icon in px.', 'accesspress-social-icons'); ?></p>
                     </div>
                 </div><!--aps-field-wrapper-->
             </div>
             <div class="aps-col-half">
                 <div class="aps-field-wrapper form-field">
-                    <label><?php _e('Icon Height', 'aps-social'); ?></label>
+                    <label><?php _e('Icon Height', 'accesspress-social-icons'); ?></label>
                     <div class="aps-field">
                         <input type="text" name="icons[<?php echo $filename; ?>][icon_height]" class="aps_theme_icon_height" placeholder="eg. 32px" />
                     </div>
-                    <div class="aps-option-note"><p><?php _e('Please enter the height for the icon in px.', 'aps-social'); ?></p></div>
+                    <div class="aps-option-note"><p><?php _e('Please enter the height for the icon in px.', 'accesspress-social-icons'); ?></p></div>
                 </div><!--aps-field-wrapper-->
             </div>
             <div class="aps-col-full">
                 <div class="aps-field-wrapper form-field">
-                    <label><?php _e('Icon Link', 'aps-social'); ?></label>
+                    <label><?php _e('Icon Link', 'accesspress-social-icons'); ?></label>
                     <div class="aps-field">
                         <input type="text" name="icons[<?php echo $filename; ?>][link]" placeholder="eg. https://www.facebook.com" />
                     </div>
@@ -62,7 +62,7 @@
             </div>
             <div class="aps-col-half">
                 <div class="aps-field-wrapper form-field">
-                    <label><?php _e('Tooltip Text', 'aps-social'); ?></label>
+                    <label><?php _e('Tooltip Text', 'accesspress-social-icons'); ?></label>
                     <div class="aps-field">
                         <input type="text" name="icons[<?php echo $filename; ?>][tooltip_text]" placeholder="your tooltip text"/>
                     </div>
@@ -70,7 +70,7 @@
             </div>
             <div class="aps-col-half">
                 <div class="aps-field-wrapper form-field">
-                    <label><?php _e('Icon Link Target', 'aps-social'); ?></label>
+                    <label><?php _e('Icon Link Target', 'accesspress-social-icons'); ?></label>
                     <div class="aps-field">
                         <select name="icons[<?php echo $filename; ?>][link_target]" class="aps-form-control">
                             <option value="New Window">New Window</option>

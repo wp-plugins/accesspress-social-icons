@@ -4,10 +4,10 @@ defined('ABSPATH') or die("No script kiddies please!");
  * Plugin Name:AccessPress Social Icons
  * Plugin URI: https://accesspressthemes.com/wordpress-plugins/accesspress-social-icons/
  * Description: A plugin to add social icons in your site wherever you want dynamically with handful of configurable settings.
- * Version:1.4.1
+ * Version:1.4.6
  * Author:AccessPress Themes
  * Author URI:http://accesspressthemes.com/
- * Text Domain: aps-social
+ * Text Domain: accesspress-social-icons
  * Domain Path: /languages/
  * License:GPLv2 or later
  * */
@@ -31,7 +31,7 @@ if (!defined('APS_LANG_DIR')) {
 }
 if(!defined('APS_VERSION'))
 {
-    define('APS_VERSION','1.4.1');
+    define('APS_VERSION','1.4.6');
 }
 /**
  * Register of widgets
@@ -70,16 +70,16 @@ if (!class_exists('APS_Class')) {
 
         //loads the text domain for translation
         function plugin_text_domain() {
-            load_plugin_textdomain('aps-social', FALSE, APS_LANG_DIR);
+            load_plugin_textdomain('accesspress-social-icons', FALSE, APS_LANG_DIR);
         }
 
         //adds plugin menu in wp-admin
         function add_aps_menu() {
             add_menu_page('AccessPress Social', 'AccessPress <br/> Social Icons', 'manage_options', 'aps-social', array($this, 'main_page'), APS_IMAGE_DIR . '/si-icon.png');
-            add_submenu_page('aps-social', __('Social Icons','aps-social'), __('Social Icons','aps-social'), 'manage_options', 'aps-social', array($this, 'main_page'));
-            add_submenu_page('aps-social', __('Add New Set','aps-social'), __('Add New Set','aps-social'), 'manage_options', 'aps-social-add', array($this, 'add_new_set'));
-            add_submenu_page('aps-social', __('How to use','aps-social'), __('How to use','aps-social'), 'manage_options', 'aps-social-how-to-use', array($this, 'how_to_use'));
-            add_submenu_page('aps-social', __('About','aps-social'), __('About','aps-social'), 'manage_options', 'aps-about', array($this, 'about'));
+            add_submenu_page('aps-social', __('Social Icons','accesspress-social-icons'), __('Social Icons','accesspress-social-icons'), 'manage_options', 'aps-social', array($this, 'main_page'));
+            add_submenu_page('aps-social', __('Add New Set','accesspress-social-icons'), __('Add New Set','accesspress-social-icons'), 'manage_options', 'aps-social-add', array($this, 'add_new_set'));
+            add_submenu_page('aps-social', __('How to use','accesspress-social-icons'), __('How to use','accesspress-social-icons'), 'manage_options', 'aps-social-how-to-use', array($this, 'how_to_use'));
+            add_submenu_page('aps-social', __('About','accesspress-social-icons'), __('About','accesspress-social-icons'), 'manage_options', 'aps-about', array($this, 'about'));
         }
 
         //plugin's main page
@@ -96,17 +96,17 @@ if (!class_exists('APS_Class')) {
         function register_admin_assets() {
             //including the scripts in the plugins pages only
             if (isset($_GET['page']) && ($_GET['page'] == 'aps-social' || $_GET['page'] == 'aps-social-add' || $_GET['page'] == 'aps-about'|| $_GET['page'] == 'aps-social-how-to-use')) {
-                $aps_script_variable = array('icon_preview' => __('Icon Preview', 'aps-social'),
-                    'icon_link' => __('Icon Link', 'aps-social'),
-                    'icon_link_target' => __('Icon Link Target','aps-social'),
-                    'icon_delete_confirm' => __('Are you sure you want to delete this icon from this list?', 'aps-social'),
-                    'set_name_required_message' => __('Please enter the name for the set', 'aps-social'),
-                    'min_icon_required_message' => __('Please add at least one icon in the set', 'aps-social'),
+                $aps_script_variable = array('icon_preview' => __('Icon Preview', 'accesspress-social-icons'),
+                    'icon_link' => __('Icon Link', 'accesspress-social-icons'),
+                    'icon_link_target' => __('Icon Link Target','accesspress-social-icons'),
+                    'icon_delete_confirm' => __('Are you sure you want to delete this icon from this list?', 'accesspress-social-icons'),
+                    'set_name_required_message' => __('Please enter the name for the set', 'accesspress-social-icons'),
+                    'min_icon_required_message' => __('Please add at least one icon in the set', 'accesspress-social-icons'),
                     'ajax_url' => admin_url() . 'admin-ajax.php',
                     'ajax_nonce' => wp_create_nonce('aps-ajax-nonce'),
-                    'icon_warning' => __('Are you sure you want to discard the icons added previously?', 'aps-social'),
-                    'icon_collapse' => __('Collapse All', 'aps-social'),
-                    'icon_expand' => __('Expand All', 'aps-social'));
+                    'icon_warning' => __('Are you sure you want to discard the icons added previously?', 'accesspress-social-icons'),
+                    'icon_collapse' => __('Collapse All', 'accesspress-social-icons'),
+                    'icon_expand' => __('Expand All', 'accesspress-social-icons'));
                 /**
                  * Backend CSS
                  * */
@@ -159,7 +159,7 @@ if (!class_exists('APS_Class')) {
 
         //starts the session
         function admin_session_init() {
-            if (!session_id()) {
+            if (!session_id() && !headers_sent()) {
                 session_start();
             }
         }

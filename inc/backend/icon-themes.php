@@ -2,7 +2,7 @@
 <div class="aps-theme-chooser" style="display: none;">
     <div class="aps-field-wrapper">
         <div class="aps-png-themes">
-            <h3><?php _e('Available Icon Themes', 'aps-social'); ?> <img src="<?php echo APS_IMAGE_DIR . '/ajax-loader.gif' ?>" id="aps-icon-theme-loader" style="display: none"/></h3>
+            <h3><?php _e('Available Icon Themes', 'accesspress-social-icons'); ?> <img src="<?php echo APS_IMAGE_DIR . '/ajax-loader.gif' ?>" id="aps-icon-theme-loader" style="display: none"/></h3>
             <div class="aps-well">
                 <div>
                     <?php for ($i = 1; $i <= 12; $i++) {

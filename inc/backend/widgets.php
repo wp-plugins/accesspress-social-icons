@@ -11,8 +11,8 @@ class APS_Widget extends WP_Widget {
 	function __construct() {
 		parent::__construct(
 			'apsi_widget', // Base ID
-			__('AccessPress Social Icons', 'aps-social'), // Name
-			array( 'description' => __( 'AccessPress Social Icon Widget', 'aps-social' ), ) // Args
+			__('AccessPress Social Icons', 'accesspress-social-icons'), // Name
+			array( 'description' => __( 'AccessPress Social Icon Widget', 'accesspress-social-icons' ), ) // Args
 		);
 	}
 
@@ -66,13 +66,13 @@ class APS_Widget extends WP_Widget {
 		?>
 		<p>
         
-		<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ,'aps-social'); ?></label> 
+		<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ,'accesspress-social-icons'); ?></label> 
 		<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
 		</p>
         <p>
-          <label for="<?php echo $this->get_field_id('si_id');?>"><?php _e('Icon set','aps-social')?></label>
+          <label for="<?php echo $this->get_field_id('si_id');?>"><?php _e('Icon set','accesspress-social-icons')?></label>
           <select name="<?php echo $this->get_field_name('si_id');?>" id="<?php echo $this->get_field_id('si_id');?>" class="widefat">
-            <option value=""><?php _e('Choose Icon Set','aps-social');?></option>
+            <option value=""><?php _e('Choose Icon Set','accesspress-social-icons');?></option>
             <?php foreach($icon_sets as $icon_set){
                 ?>
                 <option value="<?php echo $icon_set->si_id;?>" <?php if($si_id==$icon_set->si_id){?>selected="selected"<?php }?>><?php echo $icon_set->icon_set_name;?></option>
