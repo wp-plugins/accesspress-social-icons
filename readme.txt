@@ -126,7 +126,7 @@ Once you install the plugin , you can check some general documentation about how
 == Changelog ==
 = 1.4.6 = 
 * Added Yelp icon
-* Fixed some icons name typo
+* Fixed some icons name
 
 = 1.4.5 = 
 * Modified widget ID  
